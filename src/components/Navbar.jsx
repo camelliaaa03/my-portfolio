@@ -30,7 +30,7 @@ const Navbar = () => {
         </div>
         <div
           className={` ${
-            sticky ? "md:bg-gray-900/0 bg-slate-900" : "bg-slate-900"
+            sticky ? "md:bg-gray-900/0 bg-zinc-900" : "bg-slate-900"
           } text-white md:block hidden px-7 py-2 font-medium  rounded-bl-full`}
         >
           <ul className="flex items-center py-2 text-md">
