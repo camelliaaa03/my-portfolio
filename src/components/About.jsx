@@ -20,7 +20,7 @@ const About = () => {
               design software but currently focus on software development area.
               </p>
               <div className="flex justify-center mt-10 gap-7">
-                <a href="https://drive.google.com/file/d/1j1JiQJH24e_RYEvh2MCp6a9MwXve7XgK/view?usp=drive_link" download>
+                <a href="https://drive.google.com/file/d/1gZS_BJeCvrnlkcLxTniEQ-9TxqFNXllD/view?usp=sharing" download>
                   <button className="btn-primary">Download CV</button>
                 </a>
               </div>

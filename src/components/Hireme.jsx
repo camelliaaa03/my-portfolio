@@ -31,7 +31,7 @@ const Hireme = () => {
         <img
           src={profil2}
           alt=""
-          className="lg:h-[32rem] h-80 lg:absolute bottom-0 -right-3 object-cover"
+          className="lg:h-[28rem] h-80 lg:absolute top-0 -right-3 object-cover"
         />
       </div>
     </section>

@@ -4,6 +4,7 @@ import project1 from "../assets/images/project1.png";
 import project2 from "../assets/images/project-2.png";
 import project3 from "../assets/images/project-3.png";
 import project4 from "../assets/images/project-4.png";
+import project5 from "../assets/images/project-5.png";
 import project_person from "../assets/images/person.png";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -35,6 +36,13 @@ const Project = () => {
       github_link: "https://github.com/camelliaaa03/Proyek-Akhir-AndroidStudio_203110051",
       // live_link: "https://reacttailwindnavbar.netlify.app",
     },
+
+    {
+      img: project5,
+      name: "UI Design Aplikasi GoKedinasan",
+      github_link: "https://www.figma.com/file/GPYxdP011c85ybZP3VMjeQ/Aplikasi-GoKedinasan?type=design&node-id=0%3A1&mode=design&t=Qfeg2GrvG6xZ8QA3-1",
+      // live_link: "https://reacttailwindnavbar.netlify.app",
+    },
     
   ];
   return (
@@ -47,7 +55,7 @@ const Project = () => {
       </div>
       <br />
       <div className="flex max-w-6xl gap-6 px-5 mx-auto items-center relative">
-        <div className="lg:w-2/3 w-full">
+        <div className="lg:w-full w-full">
           <Swiper
             slidesPerview={1.2}
             spaceBetween={20}
@@ -91,9 +99,9 @@ const Project = () => {
             ))}
           </Swiper>
         </div>
-        <div className="lg:block hidden">
+        {/* <div className="lg:block hidden">
           <img src={project_person} alt="" />
-        </div>
+        </div> */}
       </div>
     </section>
   );
